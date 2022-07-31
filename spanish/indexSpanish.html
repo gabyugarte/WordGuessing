@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Juego de adivinar la palabra | Gaby</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+      <div id="flags" class="flags">
+        <div class="flags_item" data-language="es">
+            <a href="indexSpanish.html"><img src="../icons/es.svg" alt="Spain Flag" title="Spanish"></a>
+        </div>
+        <div class="flags_item" data-language="en">
+            <a href="../index.html"><img src="../icons/gb.svg" alt="UK Flag"title="English"></a>
+        </div>
+      </div>
+  
+    <div class="wrapper">
+      <h1>Adivina la palabra</h1>
+      <div class="content">
+        <input type="text" class="typing-input" maxlength="1">
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint">Indicio: <span></span></p>
+          <p class="guess-left">Letras disponibles: <span></span></p>
+          <p class="wrong-letter">Letras equivocadas: <span></span></p>
+        </div>
+        <button class="reset-btn">Reiniciar el Juego</button>
+      </div>
+    </div>
+
+    <script src="../jsSpanish/words.js"></script>
+    <script src="../jsSpanish/script.js"></script>
+
+  </body>
+  <footer>
+    <p>Autora: Gaby Ugarte<br>
+  </footer>
+</html>
