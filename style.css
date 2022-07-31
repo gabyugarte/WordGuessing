@@ -7,9 +7,9 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  display: flex;
+  display: grid;
   padding: 0 10px;
-  min-height: 100vh;
+  min-height:90vh;
   align-items: center;
   justify-content: center;
   background: #1BB295;
@@ -79,7 +79,29 @@ body{
 .content .reset-btn:hover{
   background: #18a589;
 }
+.flags{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 5px;
+ 
+}
+.flags_item{
+  width: 30px;
+}
+.flags_img{
+  cursor: pointer;
+  display: block; /* To eliminate margin img */
+}
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
 @media screen and (max-width: 460px) {
   .wrapper {
     width: 100%;
